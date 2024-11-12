@@ -5,8 +5,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import confusion_matrix, accuracy_score, f1_score, precision_score, recall_score
 
-data_train = pd.read_csv('bank/bank.csv', delimiter=',')
-data_test = pd.read_csv('bank/bank-full.csv', delimiter=',')
+data_train = pd.read_csv('bank.csv', delimiter=',')
+data_test = pd.read_csv('bank-full.csv', delimiter=',')
 
 data_train = pd.get_dummies(data_train, drop_first=True)
 data_test = pd.get_dummies(data_test, drop_first=True)
