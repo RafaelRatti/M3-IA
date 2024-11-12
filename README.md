@@ -24,4 +24,4 @@ Para rodar este projeto, você precisará das seguintes bibliotecas Python:
 Você pode instalar as dependências usando o `pip`:
 
 ```bash
-pip install pandas numpy scikit-learn
+pip install -r requirements.txt
